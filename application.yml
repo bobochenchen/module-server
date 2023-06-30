@@ -1,21 +1,4 @@
 server:
-  port: 8889
+  port: 8891
 
 
-# spring:
-#   cloud:
-#     config:
-#       server:
-#         git:
-#           search-paths: server_config
-#           uri: https://github.com/bobochenchen/module-server.git
-# #          username: bobochenchen
-# #          password: bobobro1579@
-#       label: main
-
-#   application:
-#     # \u8BBE\u7F6Eapp\u540D\u79F0:
-#     name: module-server
-#     config:
-#       # \u5BFC\u5165Config Server\u5730\u5740:
-#       import: configserver:${CONFIG_SERVER:http://localhost:8888}
