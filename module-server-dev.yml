@@ -1,4 +1,13 @@
 server:
   port: 8890
 
+spring:
+  application:
+    # 设置app名称:
+    name: module-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.4.77:8761/eureka/
 
