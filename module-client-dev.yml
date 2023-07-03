@@ -4,10 +4,10 @@ server:
 spring:
   application:
     # 设置app名称:
-    name: module-server
+    name: module-client
 
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.4.77:8761/eureka/
+      defaultZone: http://eureka1:8761/eureka/
 
